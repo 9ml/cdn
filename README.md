@@ -1,0 +1,2 @@
+# cdn
+My resource warehose
