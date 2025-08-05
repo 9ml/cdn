@@ -1,0 +1,158 @@
+/* CSS Document */
+
+@charset"utf-8";
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ul,
+form,
+input,
+textarea,
+th,
+td,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  outline: none;
+  transition: all .3s;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input,
+select,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+textarea {
+  resize: none;
+  overflow: auto;
+}
+
+body {
+  font-family: 'Microsoft YaHei',Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+}
+
+.pc {
+  display: block;
+}
+
+.phone {
+  display: none;
+}
+
+.wrap {
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.max1920 {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.text-hidden1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-hidden2 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.text-hidden3 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+@media only screen and (max-width:1040px) {
+  html {
+    font-size: 50px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-overflow-scrolling: auto;
+  }
+  body {
+    font-size: .36rem;
+    overflow-x: hidden;
+  }
+  .pc {
+    display: none;
+  }
+  .phone {
+    display: block;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  body {
+    font-size: .28rem;
+  }
+}
