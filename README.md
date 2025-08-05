@@ -7,8 +7,8 @@
 搭建流程:
 
 1. 上传资源文件到`GitHub`仓库
-2. 仓库主页: `https://www.jsdelivr.com/package/gh/用户名称/仓库名称`
-3. 访问资源: `https://cdn.jsdelivr.net/gh/用户名称/仓库名称@版本号/目录/文件`
+2. 获取资源文件: `https://cdn.jsdelivr.net/gh/用户名称/仓库名称@版本号/目录/文件`
+3. jsDelivr 仓库主页: `https://www.jsdelivr.com/package/gh/用户名称/仓库名称`
 
 示例: [https://cdn.jsdelivr.net/gh/9ml/cdn@main/images/test.jpg](https://cdn.jsdelivr.net/gh/9ml/cdn@main/images/test.jpg)
 
