@@ -4,10 +4,13 @@
 
 ## 搭建
 
-1. 上传资源文件到`GitHub`仓库
-2. 通过`https://cdn.jsdelivr.net/gh/用户名称/仓库名称@版本号/目录/文件`加速访问
+搭建流程:
 
-- 示例: [https://cdn.jsdelivr.net/gh/9ml/cdn@main/images/test.jpg](https://cdn.jsdelivr.net/gh/9ml/cdn@main/images/test.jpg)
+1. 上传资源文件到`GitHub`仓库
+2. 仓库主页: `https://www.jsdelivr.com/package/gh/用户名称/仓库名称`
+3. 访问资源: `https://cdn.jsdelivr.net/gh/用户名称/仓库名称@版本号/目录/文件`
+
+示例: [https://cdn.jsdelivr.net/gh/9ml/cdn@main/images/test.jpg](https://cdn.jsdelivr.net/gh/9ml/cdn@main/images/test.jpg)
 
 ## 资源文件
 
